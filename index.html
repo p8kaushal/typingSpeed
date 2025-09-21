@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link styles.css file to add CSS rules -->
+  <link rel="stylesheet" href="/static/styles.css">
+  <title>Typing Speed Test</title>
+</head>
+<body>
+  <!-- Add section containing main content of the page -->
+  <section>
+    <!-- Add test title using h1 -->
+    <h1> Test Your Typing Speed </h1>
+
+    <!--  Dynamically display a random paragraph -->
+    <p id="randomParagraph"></p>
+
+    <!-- Add textarea to capture user input -->
+    <textarea id="textInput" placeholder="Start typing here..."></textarea>
+
+    <!-- Display the test timer -->
+    <p class="timer" id="timer-display">00:00:00</p>
+
+    <!-- Add div with control buttons -->
+    <div id="controls">
+      <button id="startButton">Start</button>
+      <button id="stopButton">Stop</button>
+    </div>
+
+    <!-- Add div displaying results -->
+    <div id="results">
+      <p id="speed"></p>
+      <p id="accuracy"></p>
+    </div>
+  </section>
+  <!-- link index.js file to add dynamic functionality -->
+  <script src="index.js"></script>
+  <style src="styles.css"></style>
+
+
+</body>
+</html>

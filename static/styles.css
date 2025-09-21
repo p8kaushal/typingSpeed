@@ -1,0 +1,68 @@
+/* Task 2: Style the Application */
+/* Style the body tag */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the section */
+section {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+/* Style the textarea */
+textarea {
+    max-width: calc(100% - 20px);
+    width: 600px;
+    height: 150px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Style the timer */
+.timer {
+    font-size: 24px;
+    margin: 20px;
+}
+
+/* Style the buttons */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Add hover to buttons */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the test results */ 
+#results {
+    margin: 20px;
+    min-height: 60px;
+}
+
+#results p {
+    font-size: 18px;
+    color: #333;
+}
